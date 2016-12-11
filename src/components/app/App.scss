@@ -1,0 +1,19 @@
+$pink: #FB2B69;
+$blue: #34AADC;
+$lightGrey: #F7F7F7;
+.App {
+  header {
+    display: flex;
+    align-items: center;
+    background-color: $lightGrey;
+    height: 130px;
+    color: $pink;
+    h1{
+      margin: 0 0 0 40px; 
+    }
+  }
+  .content{
+    padding: 30px;
+  }
+
+}

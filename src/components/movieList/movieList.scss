@@ -1,0 +1,19 @@
+.MovieList{
+  ul{
+    list-style: none;
+  }
+  h2{
+    margin-bottom: 30px;
+  }
+  li{
+    cursor: pointer;
+  }
+  blockquote {
+    border-left: 4px solid #FB2B69;
+  }
+  blockquote:hover{
+    transition:  0.3s;
+    transform: scale(1.1);
+    background-color: lighten(#FB2B69, 37);
+  }
+}

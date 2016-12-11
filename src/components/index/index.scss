@@ -1,0 +1,39 @@
+$blue: #34AADC;
+.Index-route{
+  .index-form > * {
+    margin: 10px;
+
+    input {
+      width: 300px;
+    }
+
+    #textarea{
+      resize: none;
+      width: 300px;
+    }
+
+    label{
+      color: $blue;
+    }
+
+
+  }
+  .btn{
+    color: $blue ;
+    width: 300px;
+  }
+  .btn:hover{
+    background-color: $blue;
+    color: white;
+    outline: none;
+  }
+  .btn:focus{
+    color: inherit;
+    outline: none;
+  }
+
+  h2{
+    color: $blue;
+  }
+
+}
