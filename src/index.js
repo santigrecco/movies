@@ -16,7 +16,7 @@ ReactDOM.render(
     <Router history={hashHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Index}></IndexRoute>
-        <Route path="movie-details" component={MovieDetails}></Route>
+        <Route path="movie-details/:id" component={MovieDetails}></Route>
       </Route>
       <Route path='*' component={Component404} />
     </Router>

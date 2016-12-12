@@ -9,11 +9,24 @@ $lightGrey: #F7F7F7;
     height: 130px;
     color: $pink;
     h1{
-      margin: 0 0 0 40px; 
+      margin: 0 0 0 40px;
+    }
+
+    h1 > *{
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
     }
   }
   .content{
     padding: 30px;
   }
 
+  .title{
+    display: initial;
+  }
+  .movieId{
+    font-size: 20px;
+    display: initial;
+  }
 }

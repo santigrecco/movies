@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import './MovieDetails.scss'
 class MovieDetails extends Component {
 
   render(){
     return (
-      <div>
-        MovieDetails
+      <div className="MovieDetails">
+        
       </div>
     )
   }
