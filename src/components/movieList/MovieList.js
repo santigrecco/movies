@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router';
 import './movieList.scss';
 
 @connect((store)=>{
@@ -14,12 +15,14 @@ class MovieList extends Component{
     const list = store.map(el => {
       if(el){
         return (
-          <blockquote key={el.id}>
-            <li key={el.id}>
-              <b>{el.name}</b>
-              <p>{el.year}</p>
-            </li>
-          </blockquote>
+          <Link to={`/movie-details/${el.id}`} key={el.id} style={{ textDecoration: 'none' }}>
+            <blockquote>
+              <li key={el.id}>
+                <b>{el.name}</b>
+                <p>{el.year}</p>
+              </li>
+            </blockquote>
+          </Link>
         )
       }
     });

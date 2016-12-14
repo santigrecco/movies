@@ -1,5 +1,18 @@
+$pink: #FB2B69;
+$blue: #34AADC;
+$lightGrey: #F7F7F7;
+
+
 .MovieDetails{
   width: 50%;
   height: 500px;
   margin: 0 auto;
+
+  .name{
+    color: $pink;
+  }
+  .year{
+    color: $blue;
+    margin-bottom: 20px;
+  }
 }
